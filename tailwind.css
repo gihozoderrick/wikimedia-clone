@@ -1462,6 +1462,6 @@ video {
   color: rgb(243 244 246 / var(--tw-text-opacity));
 }
 
-.highlight:hover {
+.highlights:hover {
   text-decoration-line: underline;
 }
