@@ -1,0 +1,318 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-image{
+    background-image: url(./wiikinature.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.body{
+    @apply bg-gray-100;
+}
+.header{
+    @apply flex justify-between w-[1000px] mx-auto py-5 border-b;
+}
+.header__image{
+    @apply w-[200px];
+}
+.header__inputs{
+    @apply gap-2;
+}
+.header__inputs-search{
+    @apply py-1 px-2 text-gray-500 w-[200px] text-lg border border-gray-500;
+}
+.header__inputs-language{
+    @apply p-2 border border-gray-500 font-semibold;
+}
+.header__inputs-button{
+    @apply bg-red-500 p-2 text-gray-100 font-bold;
+}
+.header-links{
+    @apply w-[1000px] mx-auto flex justify-between mt-3 text-sm mb-10;
+}
+.header-links__design{
+    @apply p-2 hover:bg-gray-200 hover:text-blue-600;
+}
+.intro-first{
+    @apply w-full h-[450px] pt-7;
+}
+.intro-first__text{
+    @apply w-[450px] h-[230px] bg-yellow-100 text-gray-900 font-bold text-2xl flex flex-col justify-evenly px-7 mt-5 ml-[130px];
+}
+.blue-text{
+    @apply text-blue-600;
+}
+.intro-second{
+    @apply px-[130px];
+}
+.intro-second__info{
+    @apply flex justify-between py-10 border-b;
+}
+.info-text{
+    @apply w-[600px] text-gray-800 text-lg;
+}
+.info-donations{
+    @apply mr-[50px];
+}
+.info-donations__title{
+    @apply text-gray-800 text-xl font-semibold mb-2;
+}
+.info-donations__button{
+    @apply bg-blue-600 p-2 text-gray-100 font-bold;
+}
+.info-donations__text{
+    @apply text-sm text-gray-800;
+}
+.line-1{
+    @apply bg-gray-500;
+}
+.intro-second__language{
+    @apply text-center mt-5 font-semibold text-lg text-blue-600 space-x-7;
+}
+.second-english{
+    @apply text-gray-900;
+}
+.projects{
+    @apply flex justify-between px-[130px] mt-14;
+}
+.projects__box{
+    @apply w-[230px] space-y-3;
+}
+.projects__box-number{
+    @apply text-4xl font-bold;
+}
+.projects__box-title{
+    @apply text-2xl font-semibold text-gray-800;
+}
+.projects__box-text{
+    @apply text-sm text-gray-900;
+}
+.records{
+    @apply flex justify-center space-x-14 mt-20;
+}
+.records__box{
+    @apply w-[300px] h-[200px] bg-gray-300 py-5 pl-4 pr-14 text-gray-900 rounded-lg;
+}
+.records__box-title{
+    @apply text-4xl font-bold;
+}
+.records__box-text{
+    @apply text-lg font-bold mt-5 mb-2;
+}
+.records__box-text--center{
+    @apply mb-8;
+}
+.records__box-share{
+    @apply text-base font-bold text-blue-600;
+}
+.departments{
+    @apply mt-10 flex justify-center space-x-14;
+}
+.departments__box{
+    @apply w-[300px] space-y-4 flex flex-col justify-between h-[400px];
+}
+.departments__box-image{
+    @apply h-[200px] object-cover rounded-lg;
+}
+.departments__box-details{
+    @apply w-full px-3;
+}
+.box-details--last{
+    @apply h-[120px];
+}
+.details-title{
+    @apply mb-3 text-2xl text-gray-900 font-semibold;
+}
+.details-text{
+    @apply text-sm text-gray-800;
+}
+.details-link{
+    @apply px-3 text-base text-blue-700 font-bold;
+}
+.collabo{
+    @apply mt-14 flex justify-center space-x-14 mb-16;
+}
+.collabo__box{
+    @apply h-[300px] w-[300px] p-3 space-y-5;
+}
+.collabo__box-title{
+    @apply text-2xl font-bold text-gray-900;
+}
+.collabo__box-text{
+    @apply text-lg text-gray-600;
+}
+.collabo__box-more{
+    @apply flex justify-center;
+}
+.collabo-link{
+    @apply text-base font-bold text-blue-600;
+}
+.collabo__box-title--first{
+    @apply h-[130px];
+}
+.collabo__box-image{
+    @apply w-[100px] h-[110px] mx-auto object-contain;
+}
+.prefooter{
+    @apply mt-[100px] w-[1000px] mx-auto;
+}
+.prefooter-title{
+    @apply text-2xl font-bold text-gray-900 mb-10;
+}
+.milestones{
+    @apply flex space-x-3;
+}
+.milestones--last{
+    @apply mt-[100px];
+}
+.milestones__box{
+    @apply space-y-5 w-[500px];
+}
+.milestones__box-title{
+    @apply text-gray-900 text-xl font-semibold;
+}
+.milestones__box-link{
+    @apply text-sm font-semibold text-blue-600 px-2 pb-1  bg-gray-200 rounded-xl hover:bg-blue-600 hover:text-white;
+}
+.milestones__box-text1{
+    @apply text-lg font-serif text-gray-800;
+}
+.milestones__box-text2{
+    @apply text-xs text-gray-800 mb-5;
+}
+.milestones-more{
+    @apply text-base font-bold text-blue-600;
+}
+.milestones__image{
+    @apply w-[500px] h-[300px];
+}
+.wikimedians{
+    @apply mt-[100px];
+}
+.wikimedians__title{
+    @apply text-2xl font-bold text-gray-900 mb-10;
+}
+.staff{
+    @apply flex space-x-3;
+}
+.staff__box{
+    @apply w-[350px] h-[250px] text-center p-5 rounded-lg border border-gray-200 space-y-2;
+}
+.staff__box-image{
+    @apply w-[150px] h-[150px] rounded-full mx-auto object-cover;
+}
+.staff__box-name{
+    @apply text-lg font-bold text-gray-900;
+}
+.staff__box-text{
+    @apply text-sm text-gray-800;
+}
+.history{
+    @apply mt-10 space-y-3 mb-[100px];
+}
+.history__text{
+    @apply text-lg text-gray-800 text-center;
+}
+.history__anchor{
+    @apply flex justify-center;
+}
+.history__anchor-link{
+    @apply px-3 py-2 bg-blue-600 text-sm font-bold text-white rounded-sm hover:bg-blue-800 hover:underline;
+}
+.help{
+    @apply bg-pink-100 py-10 mb-[100px];
+}
+.help__box{
+    @apply w-[1000px] flex justify-center space-x-10 mx-auto;
+}
+.help__box-image{
+    @apply w-[500px] h-[280px] object-cover;
+}
+.help__box-details{
+    @apply w-[500px] h-[280px] flex flex-col justify-between;
+}
+.help-title{
+    @apply text-4xl font-bold text-gray-900;
+}
+.help-text{
+    @apply text-lg text-gray-800;
+}
+.help-button{
+    @apply bg-pink-600 rounded-sm p-2 text-gray-100 font-bold w-[150px];
+}
+.contact{
+    @apply w-[1000px] mx-auto border border-gray-200 p-5 space-y-3 rounded-lg mb-[100px];
+}
+.contact__logo{
+    @apply w-10 h-10;
+}
+.contact__title1{
+    @apply text-2xl font-bold text-gray-900;
+}
+.contact__text{
+    @apply text-lg text-gray-700;
+}
+.contact__title2{
+    @apply text-xl font-semibold text-gray-900 mb-3 mt-10;
+}
+.contact__box{
+    @apply flex space-x-16;
+}
+.media{
+    @apply flex space-x-2 space-y-2;
+}
+.media__logo{
+    @apply w-7 h-7 rounded-full object-cover;
+}
+.media__name{
+    @apply text-lg font-bold text-blue-600;
+}
+.gray{
+    @apply bg-gray-600 w-full py-16;
+}
+.footer{
+    @apply w-[1000px] mx-auto;
+}
+.footer__start{
+    @apply flex justify-between;
+}
+.footer__start-logo{
+    @apply w-[200px] h-10 mb-5;
+}
+.footer__start-links{
+    @apply space-x-3;
+}
+.footer-button{
+    @apply bg-gray-100 rounded-sm px-2 py-1 text-blue-600 font-semibold border border-blue-500;
+}
+.footer__text{
+    @apply text-sm text-gray-100 w-[550px];
+}
+.footer__details{
+    @apply mt-14 text-gray-100 text-sm flex space-x-5;
+}
+.programs{
+    @apply w-[250px] border-t border-gray-100;
+}
+.programs--first{
+    @apply w-[500px];
+}
+.programs__title{
+    @apply text-lg font-semibold mb-2;
+}
+.programs__box{
+    @apply flex space-x-10;
+}
+.programs__box-list{
+    @apply space-y-2;
+}
+.line{
+    @apply bg-gray-100 mt-14;
+}
+.footer__details-closure{
+    @apply text-sm text-gray-100 mt-2;
+}
+.highlight{
+    @apply hover:underline;
+}
